@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
   ngOnInit(): void {
     this.carService.getCars().subscribe((data:icar[]) => {
-      this.icar = data;
+      this.cars = data;
     });
   }
 
