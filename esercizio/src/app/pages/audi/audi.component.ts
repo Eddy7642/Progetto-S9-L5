@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { icar } from '../../Models/icar';
 
 @Component({
   selector: 'app-audi',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './audi.component.scss'
 })
 export class AudiComponent {
+
 
 }

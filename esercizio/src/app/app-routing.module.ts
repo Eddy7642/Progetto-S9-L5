@@ -9,7 +9,7 @@ import { Pages404Component } from './pages/pages404/pages404.component';
 const routes: Routes = [
   {
 path: '',
-redirectTo: '/home',
+redirectTo: "/home",
 pathMatch:'full'
 },
 {
@@ -35,7 +35,7 @@ pathMatch:'full'
 {
   path:'**',
   component:Pages404Component,
-  title:'error404'
+  title:"error404"
 
 }
 
